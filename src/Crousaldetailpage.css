@@ -1,0 +1,53 @@
+.imagecarousal img{
+    max-width: 100%;
+    
+    
+}
+
+.imagecarousal{
+    overflow: hidden;
+}
+
+
+
+@media only screen and (max-width:1000px){
+    
+        .imagecarousal{
+            width: 100%;
+            height: 340px;
+        }
+    
+   
+    
+}
+
+@media only screen and (max-width:1249px){
+   
+    .imagecarousal{
+        width: 100%;
+        height: 350px;
+    }
+
+    
+}
+
+@media only screen and (max-width:1280px){
+   
+    .imagecarousal{
+        width: 100%;
+        height: 350px;
+    }
+
+    
+}
+
+@media only screen and (max-width:500px){
+   
+    .imagecarousal{
+        width: 100%;
+        height: 210px;
+    }
+
+    
+} 
+

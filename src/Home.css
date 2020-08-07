@@ -1,0 +1,72 @@
+.Homestyle{
+    width: 100%;
+    height: 450px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('house.jpg') ;
+    background-position: center;
+    background-size: cover;
+}
+
+.formgrp{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 50%;
+    padding: 10px 5px;
+    margin: 0;
+}
+
+
+.searchbardiv{
+    width: 100%;
+}
+
+.searchbardiv Form.Control{
+    width: 100%;
+}
+#searchbar{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255,255, 0.9);
+}
+.buttondiv{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttonwidth{
+    width:250%;
+    border-radius:48px;
+    transform: translate(-30%);
+}
+
+Link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:700px){
+    .formgrp{
+      
+        width: 90%;
+        padding: 10px 5px;
+       
+    }
+    .buttonwidth{
+        width:200%;
+        border-radius:48px;
+        transform: translate(-25%);
+    }
+    .Homestyle{
+        width: 100%;
+        height: 220px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:url('house.jpg') ;
+        background-position: center;
+        background-size: cover;
+    }
+}

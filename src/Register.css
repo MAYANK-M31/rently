@@ -1,0 +1,13 @@
+.container{
+    width: 50%;
+    height:500px;
+    margin-top:15px;
+
+}
+
+
+
+.card{
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.2);  
+    height: 490px; 
+}

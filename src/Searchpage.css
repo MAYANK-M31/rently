@@ -1,0 +1,332 @@
+*{margin:0; padding: 0;}
+
+
+.divstart{
+    padding: 10px 10px;
+    padding-left: 40px;
+    width: 65%;
+}
+
+.divstart a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.cardbody{
+    width:100%;
+    height:240px;
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.cardbody:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.cardimage{
+    width:40%;
+    height:240px;
+    overflow: hidden;
+}
+
+.cardimage img{
+    width:100%;
+    height:100%;
+} 
+
+.mayank{
+    height: 240px;
+    width:60%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricetag{
+    display: flex;
+    flex-direction: row;
+}
+
+#deal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sizefull{
+    font-size:28px;
+    font-weight: 100;
+} 
+
+.pricetag div{
+    width: 50%;
+}
+
+#type{
+    width: 100%
+}
+
+
+
+.hrruler{
+    border: none;
+    border-left:1px solid lightgray;
+    width:1px;
+    height:5vh;
+}
+
+.facilities hr,
+.facilities p{
+    display: inline;
+    padding:5px;
+    
+}
+
+#hrr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+.hello{
+    width: 7%;
+}
+
+.getdeal
+{
+    display: flex;  
+}
+.x{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+
+.btngetdeal{
+    width:50%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+.btngetdeal button{
+    padding: 7px 8px;
+}
+
+.avatarbox{
+    width:15%;
+}
+
+.searchbarnav{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    background-color: white;
+     box-shadow: 0px 15px 10px -15px #888;
+   
+  
+}
+
+.utility{
+     width: 100px;
+     text-align: center;
+     padding-top:15px;
+     font-size:20px;
+     font-weight: 500;
+}
+
+.utility2{
+    width:121px;
+    text-align:left;
+    padding-top:15px;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.searchbarnav{
+    display: flex;
+}
+.searchbar{
+    width:50%;
+    margin-top: 10px;
+    
+}
+
+.searchbar input{
+    width:90%;
+    height:45px;
+    border-radius:7px;
+    text-indent:5px;
+    border: 1px solid  #a6d1ff;
+   ;
+
+    
+}
+
+
+
+.monthtext{
+    font-size:20px;
+    font-family:  FontAwesome, sans-serif;
+
+    
+}
+
+@media only screen and (max-width:1024px){
+    .divstart{
+        width: 100%;
+        padding-left: 0;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .divstart{
+        width: 100%;
+        padding-left: 0;
+        padding: 10px 10px;
+    }
+    .cardbody{
+        width: 100%;
+        height: 200px;
+    }
+    .cardimage{
+        height: 100%;
+    }
+
+    .mayank{
+        height: 100%;
+        width:60%;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .pricetag{
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+    }
+    .pricetag h2{
+        font-size: 17px;
+    }
+    .pricetag span{
+        font-size: 12px;
+    }
+    #deal h2{
+        font-size:15px ;
+    }
+    #type h5{
+       font-size: 15px;
+    }
+    .card-text{
+        margin: 0;
+    }
+
+    .facilities p{
+        font-size: 12px;
+    }
+  
+    .facilities hr{
+        display: none;
+    }
+    #hrr{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .getdeal{
+        height: 30px;
+    }
+
+    .btngetdeal{
+        width:50%;
+        height: 30px;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .btngetdeal button{
+        padding: 0 5px;
+    }
+    .x{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .x p{
+        font-size: 15px;
+    }
+
+    .searchbarnav{
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0;
+
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .searchbar input{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:450px){
+    .facilities p{
+        font-size: 8px;
+    }
+    .x p{
+        font-size: 11px;
+    }
+    .cardbody{
+        width: 100%;
+        height: 180px;
+    }
+    .facilities {
+        height: 50px;
+    }
+    .facilities p{
+        padding: 0;
+        margin-right: 2px;
+    }
+    #hrr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    
+      .x{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .card-text{
+        font-size: 11px;
+    }
+    
+    .btngetdeal button p{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .searchbarnav{
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0;
+
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .searchbar input{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width:705px){
+    .searchbarnav{
+        padding: 0 2%;
+    }
+}

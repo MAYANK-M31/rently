@@ -1,0 +1,33 @@
+.utilitynav{
+    width:50%;
+    display: flex;
+}
+
+.rangewidth{
+    width:400px;
+}
+
+.sliderbox{
+    padding: 0 10px 0 10px;
+}
+
+
+@media only screen and (max-width:1024px){
+ .utilitynav{
+    display: flex;
+ }
+}
+
+@media only screen and (max-width:700px){
+    .utilitynav{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+    .utilitynav{
+        display: none;
+    }
+}
+
